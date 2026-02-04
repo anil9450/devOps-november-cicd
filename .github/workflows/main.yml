@@ -1,7 +1,7 @@
 name: simple CI python Application
 
 on:
-  push:
+  push: branches: [ "main" ]
 
   jobs:
   dev:
